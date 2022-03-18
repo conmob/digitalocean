@@ -1,0 +1,11 @@
+#!/bin/bash -e
+
+export DIGITALOCEAN_VERSION="1.71.1"
+export KUBECTL_VERSION="1.22.3"
+export HELM_VERSION="3.7.2"
+export TERRAFORM_VERSION="1.1.2"
+
+export CONTAINER_REGISTRY_PUSH=1
+export CONTAINER_REGISTRY_PATH="registry-1.docker.io/conmob/digitalocean"
+export CONTAINER_REGISTRY_USERNAME="xxx"
+export CONTAINER_REGISTRY_PASSWORD="xxx"
